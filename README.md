@@ -2,8 +2,10 @@
 
 
 #Backend Setup
-bash# Create and navigate to backend folder
+# Create and navigate to backend folder
+
 mkdir backend
+
 cd backend
 
 # Initialize Node.js project
@@ -16,10 +18,7 @@ npm install express pg dotenv cors
 touch .env
 
 
-#Frontend Setup
-bash# Navigate back to phase3 folder
-cd ..
-
+# Frontend Setup
 # Create React app
 npx create-react-app frontend
 
@@ -30,13 +29,14 @@ cd frontend
 npm install axios
 npm install react-chartjs-2 chart.js
 
-#Run the Application
+# Run the Application
 You need TWO terminal windows:
-##Terminal 1 - Backend:
+## Terminal 1 - Backend:
 bashcd phase3/backend
 node server.js
 You should see: "Server running on http://localhost:5000"
-##Terminal 2 - Frontend:
+## Terminal 2 - Frontend:
 bashcd phase3/frontend
 npm start
 Your browser will automatically open to http://localhost:3000
+
