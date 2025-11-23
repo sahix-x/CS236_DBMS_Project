@@ -12,6 +12,7 @@
 
 ### Install dependencies
 * npm install express pg dotenv cors
+* npm install react-chartjs-2 chart.js
 
 ### Create .env file
 * touch .env
@@ -38,6 +39,7 @@ You need TWO terminal windows:
 * cd phase3/frontend
 * npm start
 * Your browser will automatically open to http://localhost:3000
+
 
 
 
